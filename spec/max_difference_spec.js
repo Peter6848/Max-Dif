@@ -7,6 +7,7 @@ describe('max dif', function(){
   });
   it('finds max diffenece between integers in array', function(){
     expect(maxDif([1, 2, 3, 4, 5])).toEqual(4);
+    expect(maxDif([10, 5, 20, 10])).toEqual(15);
   });
   it('adds negative number to postive', function(){
     expect(maxDif([4, -5, 10])).toEqual(15);
